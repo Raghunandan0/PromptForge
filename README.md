@@ -21,7 +21,7 @@
 
 ## 📷 Screenshots
 
-<img src="https://github.com/user-attachments/assets/256846b6-4f12-4133-8e70-f5a4767909fe" width="800" />
+<img src="https://github.com/user-attachments/assets/c7845312-5a4a-4c1d-8cfd-1920e0a5296e" width="800" />
 
 
 ## 🧠 Learning Goals
