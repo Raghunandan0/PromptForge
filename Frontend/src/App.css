@@ -1,0 +1,121 @@
+/* * {
+    color: #ececec;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    background-color: #212121;
+    display: flex;
+} */
+
+
+/* Global Reset and Typography */
+* {
+  color: #ececec;
+  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #212121; /* match the app background */
+  overflow: hidden; /* avoid white scroll */
+}
+
+/* Main App Layout */
+.app {
+  background-color: #212121;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Input Area (like ChatGPT style) */
+.input-area {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  margin: 12px auto;
+  max-width: 720px;
+  width: calc(100% - 32px); /* better responsive fit */
+  position: sticky;
+  bottom: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.input-area input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  padding: 10px 12px;
+}
+
+.input-area button {
+  background-color: #10a37f;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.input-area button:hover {
+  background-color: #0e8d6c;
+}
+
+/* Auth.css*/
+
+.auth-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.auth-container input {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-container p {
+  margin-top: 1rem;
+  text-align: center;
+}
+
